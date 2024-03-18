@@ -86,11 +86,11 @@ class SonarQubeProjects(RestClient):
         """
 
     @POST(API_PROJECTS_DELETE_ENDPOINT)
-    def delete_project(self, key):
+    def delete_project(self, project):
         """
         SINCE 5.2
         Delete a project
-        :param key: Project key
+        :param project: Project key
         :return:
         """
 
